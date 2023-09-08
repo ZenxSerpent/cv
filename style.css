@@ -1,0 +1,355 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.border{
+    border: 0.5px solid red;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(211 232 255);
+   
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 25px;
+    color: #444;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    margin-bottom: 80px;
+    justify-content: space-evenly;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.experience .job {
+    margin-bottom: 20px;
+}
+
+.experience .job h3 {
+    font-size: 20px;
+    font-weight: 400;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.64);
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.experience .job p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.education {
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.education .degree {
+    margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.education .degree h3 {
+    font-size: 20px;
+}
+
+.education .degree p {
+    font-size: 16px;
+}
+#profilepic{
+    width: 140px;
+    height: 140px;
+    border-radius: 49%;
+    background: url('./profilepic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    margin-left: 24px;
+}
+.box1{
+    background:url('https://images.ctfassets.net/pdf29us7flmy/5Zoc0mQaegH0ChTOYv4mOD/1eb096b6908d5be01643c48ded7ba2c2/Internship-Cover-Letter-FINAL-02.jpg');
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    height: 169px;
+    align-items: center;
+    justify-content: center;
+}
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: #212121;
+    font-size: 12px;
+    min-height: 100%;
+    min-width: 211px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.section-header {
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+
+section {
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+a, a:link, a:visited {
+    color: #212121;
+    text-decoration: none;
+}
+
+.Carousel-slider {
+    height: 560px;
+    position: relative;
+    width: 100%;
+    bottom: 108px;
+}
+
+.Carousel-slider.fullwidth {
+    height: 500px;
+}
+
+.Carousel-slider.fullwidth .slider-item {
+    height: 480px;
+    line-height: 480px;
+    width: 100%
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: 0 50%;
+	perspective: 800px  !important;
+    bottom: 30px;
+   
+}
+
+.slider-item {
+    display: none;
+    height: 211px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 211px;
+    cursor: pointer;
+}
+
+.indicators {
+    bottom: 115px;
+    left: 50%;
+    padding: 0;
+    list-style-type: none;
+    margin: 40px 0 0 -77px;
+    position: absolute;
+}
+
+.indicators li {
+    color: #255f8b;
+    float: left;
+    height: 10px;
+    margin-right: 8px;
+    text-align: center;
+    width: 10px;
+}
+
+.indicators li:last-child {margin: 0;}
+.indicators a {
+    background: #00416a;
+    border-radius: 8px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.indicators .active a {
+	background: rgb(252, 92, 34);
+
+}
+.superHero1 {background: url(./html.png);background-size: cover; border-radius: 50px !important;}
+.superHero2 {background: url(./css.png);background-size: cover; border-radius: 50px !important;}
+.superHero3 {background: url(./js.png);background-size: cover; border-radius: 50px !important;}
+.superHero4 {background: url(./mongo.png);background-size: cover ; border-radius: 50px !important;}
+.superHero5 {background: url(./react.png);background-size: cover ;background-position: center; border-radius: 50px !important;}
+.superHero6 {background: url(./node.png);background-size: cover; border-radius: 50px !important;}
+.superHero7 {background: url(./express.png);background-size: cover; border-radius: 50px !important;}
+
+.cardbox{
+    justify-content: space-evenly;
+}
+.card {
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+    border-radius: 10px;
+    background-color: #6B6ECC;
+}
+.clglogo{
+    height: 150px;
+    width: 150px;
+    background:url('https://img.collegedekhocdn.com/media/img/institute/logo/1434548667.gif');
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.scllogo{
+    height: 150px;
+    width: 150px;
+    background: url('https://ghvmpuri.in/ghvm_erp/ghvm_logo.jpg');
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.conts{
+    text-align: center;
+}
+.scllogo{
+    height: 150px;
+    width: 150px;
+    background: url('https://ghvmpuri.in/ghvm_erp/ghvm_logo.jpg');
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.conts{
+    text-align: center;
+    position: relative;
+}
+.scllogo{
+    height: 150px;
+    width: 150px;
+    background: url('https://ghvmpuri.in/ghvm_erp/ghvm_logo.jpg');
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.conts{
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
+.simple-bar-chart{
+    --line-count: 10;
+    --line-color: currentcolor;
+    --line-opacity: 0.25;
+    --item-gap: 2%;
+    --item-default-color: #060606;
+    
+    height: 10rem;
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--item-gap);
+    align-items: end;
+    padding-inline: var(--item-gap);
+    --padding-block: 1.5rem; /*space for labels*/
+    padding-block: var(--padding-block);
+    position: relative;
+    isolation: isolate;
+    bottom: 70px;
+  }
+  
+  .simple-bar-chart::after{
+    content: "";
+    position: absolute;
+    inset: var(--padding-block) 0;
+    z-index: -1;
+    --line-width: 1px;
+    --line-spacing: calc(100% / var(--line-count));
+    background-image: repeating-linear-gradient(to top, transparent 0 calc(var(--line-spacing) - var(--line-width)), var(--line-color) 0 var(--line-spacing));
+    box-shadow: 0 var(--line-width) 0 var(--line-color);
+    opacity: var(--line-opacity);
+  }
+  .simple-bar-chart > .item{
+    height: calc(1% * var(--val));
+    background-color: var(--clr, var(--item-default-color));
+    position: relative;
+    animation: item-height 1s ease forwards
+  }
+
+
+  @keyframes item-height { from { height: 0 } }
+  
+  .simple-bar-chart > .item > * { position: absolute; text-align: center }
+  .simple-bar-chart > .item > .label { inset: 100% 0 auto 0 }
+  .simple-bar-chart > .item > .value { inset: auto 0 100% 0 }
+  
+  body > * { max-width: 45rem; margin-inline: auto}
